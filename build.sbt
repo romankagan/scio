@@ -836,7 +836,7 @@ lazy val `scio-parquet`: Project = project
     description := "Scio add-on for Parquet",
     libraryDependencies ++= Seq(
       "me.lyh" %% "parquet-avro" % parquetExtraVersion,
-      "me.lyh" %% "parquet-tensorflow" % parquetExtraVersion,
+      "me.lyh" % "parquet-tensorflow" % parquetExtraVersion,
       "com.google.cloud.bigdataoss" % "gcs-connector" % gcsConnectorVersion,
       "org.apache.beam" % "beam-sdks-java-io-hadoop-format" % beamVersion,
       "org.apache.hadoop" % "hadoop-client" % hadoopVersion,
